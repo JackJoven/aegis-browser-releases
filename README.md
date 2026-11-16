@@ -2,35 +2,42 @@
   <img src="./logo.png" alt="AegisBrowser Logo" width="96" height="96" />
   <h1>AegisBrowser 官方安装包下载中心</h1>
   <p><strong>超轻量防关联指纹浏览器工作台 · 安装包仅 3~6 MB · 支持 Windows 10/11 与 macOS</strong></p>
-  <p>当前最新版本：<code>v0.1.0</code></p>
+  <p>当前最新版本：<code>v0.1.1</code></p>
 </div>
 
 ---
 
-## 一键直链下载 (`v0.1.0`)
+## `v0.1.1` 核心更新亮点
+
+- **⚡ 内置国内智能多源加速**：内置 5 个经实测可用（`HTTP 200` + 二进制直链校验）的国内 GitHub Release 加速节点（`ghfast.top` / `gh-proxy.com` / `ghproxy.net` / `gh-proxy.org` / `edgeone.gh-proxy.com`），支持防假 `200 OK` HTML 拦截与 25s 流式超时自动切换，也支持 **GitHub 官方直连** 与 **自定义镜像前缀 / 私有 OSS·COS·R2 直链**。
+- **📦 网盘离线包一键导入 (`.zip` / `.dmg`)**：严格内网或无代理环境下，可在内核卡片直接粘贴网盘下载的 `.zip`（Windows/Mac）或 `.dmg`（Mac）本地压缩包路径，自动剥离引号、安全解压并校验入库，无需手动折腾目录。
+
+---
+
+## 一键直链下载 (`v0.1.1`)
 
 无需登录 GitHub，点击下方对应平台的安装包即可直接下载：
 
 | 平台 | 适用版本 / 架构 | 安装包大小 | 直链下载 |
 | --- | --- | --- | --- |
-| **Windows 10/11** | 64-bit 一键安装版（推荐） | ~3.1 MB | [AegisBrowser_0.1.0_x64-setup.exe](https://github.com/JackJoven/aegis-browser-releases/releases/download/v0.1.0/AegisBrowser_0.1.0_x64-setup.exe) |
-| **Windows 10/11** | 64-bit MSI 企业安装包 | ~4.0 MB | [AegisBrowser_0.1.0_x64_en-US.msi](https://github.com/JackJoven/aegis-browser-releases/releases/download/v0.1.0/AegisBrowser_0.1.0_x64_en-US.msi) |
-| **macOS** | Apple Silicon（M1 / M2 / M3 / M4） | ~6.0 MB | [AegisBrowser_0.1.0_aarch64.dmg](https://github.com/JackJoven/aegis-browser-releases/releases/download/v0.1.0/AegisBrowser_0.1.0_aarch64.dmg) |
-| **macOS** | Intel（老款芯片） | ~6.3 MB | [AegisBrowser_0.1.0_x64.dmg](https://github.com/JackJoven/aegis-browser-releases/releases/download/v0.1.0/AegisBrowser_0.1.0_x64.dmg) |
+| **Windows 10/11** | 64-bit 一键安装版（推荐） | ~3.1 MB | [AegisBrowser_0.1.1_x64-setup.exe](https://github.com/JackJoven/aegis-browser-releases/releases/download/v0.1.1/AegisBrowser_0.1.1_x64-setup.exe) |
+| **Windows 10/11** | 64-bit MSI 企业安装包 | ~4.1 MB | [AegisBrowser_0.1.1_x64_en-US.msi](https://github.com/JackJoven/aegis-browser-releases/releases/download/v0.1.1/AegisBrowser_0.1.1_x64_en-US.msi) |
+| **macOS** | Apple Silicon（M1 / M2 / M3 / M4） | ~6.0 MB | [AegisBrowser_0.1.1_aarch64.dmg](https://github.com/JackJoven/aegis-browser-releases/releases/download/v0.1.1/AegisBrowser_0.1.1_aarch64.dmg) |
+| **macOS** | Intel（老款芯片） | ~6.3 MB | [AegisBrowser_0.1.1_x64.dmg](https://github.com/JackJoven/aegis-browser-releases/releases/download/v0.1.1/AegisBrowser_0.1.1_x64.dmg) |
 
-> 更多历史版本或完整发布附件，请访问 [Releases 页面](https://github.com/JackJoven/aegis-browser-releases/releases)。
+> 更多历史版本（如 `v0.1.0`）或完整发布附件，请访问 [Releases 页面](https://github.com/JackJoven/aegis-browser-releases/releases)。
 
 ---
 
-## SHA-256 校验值
+## SHA-256 校验值 (`v0.1.1`)
 
 下载完成后可核对文件哈希值以确保安装包完整无篡改：
 
 ```text
-065ccbb8bdda73bef0bb1a4487dea2b664b4fb67c6918204b9e9f7fa9247d3c0  AegisBrowser_0.1.0_x64-setup.exe
-2bc4bb8d7f7518e0268d592b07f4c25c3380ed03f03a3dc118d186c191e9e2d0  AegisBrowser_0.1.0_x64_en-US.msi
-68455d2503b41fe95cfb04b3ab68586790567bbf16ab6e31d6561f53398dd35c  AegisBrowser_0.1.0_aarch64.dmg
-73f53ad96001bfd089253cbc187cc20ddcf220e55f11e3553b7a341c22d7f49b  AegisBrowser_0.1.0_x64.dmg
+7000bc6e7cf78f169f7af06324ee03beb8e5f4c34cd90fb62d5184734e10a26a  AegisBrowser_0.1.1_x64-setup.exe
+3f573db4c0d95864ed7e3ea44af7cf9502132fd53103785dc0c38ebff00d42f4  AegisBrowser_0.1.1_x64_en-US.msi
+29a6517dfcf06df6faec6a5aab5b49efb0b37c8893f6db4b368ac82ba4887afb  AegisBrowser_0.1.1_aarch64.dmg
+0499ab35e2d02738c29d725af81bf1068cc53e422202c793bdbb761903ecd302  AegisBrowser_0.1.1_x64.dmg
 ```
 
 ---
